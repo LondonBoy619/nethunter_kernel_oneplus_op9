@@ -24,7 +24,7 @@ jobs:
         NAME: Dark-Ages-Último
       with:
         arch: arm64
-        compiler: proton-clang/master
+        compiler: aosp-clang/master/clang-r450784e
         defconfig: oneplus9-stock_defconfig
         image: Image.gz-dtb
 
