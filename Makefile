@@ -361,12 +361,12 @@ include scripts/subarch.include
 # Alternatively CROSS_COMPILE can be set in the environment.
 # Default value for CROSS_COMPILE is not to prefix executables
 # Note: Some architectures assign CROSS_COMPILE in their arch/*/Makefile
-override ARCH		:= arm64
-override CROSS_COMPILE	:= $(HOME)/android/toolchains/arm64-gcc/bin/aarch64-elf-
-override CROSS_COMPILE_ARM32	:= $(HOME)/android/toolchains/arm32-gcc/bin/arm-eabi-
-override LLVM := 1
-override CLANG_TRIPLE := aarch64-linux-gnu
-override LLVM_PATH := $(HOME)/android/toolchains/clang/clang-r450784e/bin/
+#override ARCH		:= arm64
+#override CROSS_COMPILE	:= $(HOME)/android/toolchains/arm64-gcc/bin/aarch64-elf-
+#override CROSS_COMPILE_ARM32	:= $(HOME)/android/toolchains/arm32-gcc/bin/arm-eabi-
+#override LLVM := 1
+#override CLANG_TRIPLE := aarch64-linux-gnu
+#override LLVM_PATH := $(HOME)/android/toolchains/clang/clang-r450784e/bin/
 
 # Architecture as present in compile.h
 UTS_MACHINE 	:= $(ARCH)
